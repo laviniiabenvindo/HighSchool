@@ -33,15 +33,16 @@
             <!-- FORMULÁRIO -->
             <section>
                 <h1 class="login">Login</h1>
-                <form action="" class="formulario">
+                <form action="" id="form" class="formulario">
+                    <div id="error"></div>
                     <div>
-                        <input type="text" placeholder="E-mail">
+                        <input type="text" id="email" placeholder="E-mail">
                     </div>
                     <div>
-                        <input type="password" placeholder="Senha">
+                        <input type="password" id="senha" placeholder="Senha">
                     </div>
                     <div>
-                        <button class="botao">Login</button>
+                        <button type="submit" class="botao">Login</button>
                     </div>
                 </form>
             </section>
@@ -64,5 +65,8 @@
         <!-- FIM DO CORPO DO FORMULÁRIO -->
     </div>
     <!-- INICIO DO CÓDIGO -->
+
+    <!-- LINK JAVASCRIPT -->
+    <script src="./app.js"></script>
 </body>
 </html>
